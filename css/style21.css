@@ -1225,6 +1225,8 @@ iframe{
         width: 75%;
     }
 }
+
+/*    
 @media screen and (orientation: landscape){
     .map-cont,
     .feed{
@@ -1235,8 +1237,6 @@ iframe{
     }
 
 }
-
-/*    
 @media screen and (max-width: 437px){
     .agree+label{
         display: flex;
