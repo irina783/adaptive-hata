@@ -736,14 +736,17 @@ iframe{
 .burger:hover{
    box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
+.burger:active span,
 .burger:hover span{
     transform: rotate(360deg) translate(-100%, -50%);
     background-color: transparent;
 }
+.burger:active span:before,
 .burger:hover span:before{
     top: 0;
     transform: rotate(-45deg);
 }
+.burger:active span:after,
 .burger:hover span:after{
     bottom: 0;
     transform: rotate(45deg);
@@ -1228,7 +1231,7 @@ iframe{
         width: 94vw;
     }
     .half-field{
-        width: 45vw;
+        width: 46vw;
     }
 
 }
